@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fragment xmlns:android="http://schemas.android.com/apk/res/android"
 	android:id="@+id/peer_list_fragment"
+<<<<<<< HEAD
 	android:name="de.langerhans.wallet.ui.PeerListFragment"
+=======
+	android:name="de.schildbach.wallet.litecoin.ui.PeerListFragment"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 	android:layout_width="match_parent"
 	android:layout_height="match_parent" />

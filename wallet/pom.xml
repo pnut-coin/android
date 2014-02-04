@@ -6,11 +6,19 @@
 
 	<artifactId>wallet</artifactId>
 	<packaging>apk</packaging>
+<<<<<<< HEAD
 	<version>1.05</version>
 	<name>Dogecoin Wallet</name>
 
 	<parent>
 		<groupId>de.langerhans.wallet</groupId>
+=======
+	<version>1.099</version>
+	<name>Litecoin Wallet</name>
+
+	<parent>
+		<groupId>de.schildbach.wallet.litecoin</groupId>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 		<artifactId>base</artifactId>
 		<version>1</version>
 	</parent>
@@ -49,16 +57,28 @@
 			<type>apklib</type>
 		</dependency>
 
+<<<<<<< HEAD
 		<!-- com.google.dogecoin.* -->
 		<dependency>
 			<groupId>com.google</groupId>
 			<artifactId>dogecoinj</artifactId>
 			<version>0.11-SNAPSHOT</version>
+=======
+		<!-- com.google.litecoin.* -->
+		<dependency>
+			<groupId>com.google</groupId>
+			<artifactId>litecoinj</artifactId>
+			<version>0.85-SNAPSHOT</version>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 		</dependency>
 
-		<!-- de.schildbach.wallet.integration.android.* -->
+		<!-- de.schildbach.wallet.litecoin.integration.android.* -->
 		<dependency>
+<<<<<<< HEAD
 			<groupId>de.langerhans.wallet</groupId>
+=======
+			<groupId>de.schildbach.wallet.litecoin</groupId>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 			<artifactId>integration-android</artifactId>
 			<version>1.0</version>
 		</dependency>
@@ -70,7 +90,15 @@
 			<version>2.2</version>
 		</dependency>
 
-		<!-- org.slf4j.* -->
+        <!-- com.google.zxing.integration -->
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>android-integration</artifactId>
+            <classifier>supportv4</classifier>
+            <version>2.2</version>
+        </dependency>
+
+        <!-- org.slf4j.* -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
@@ -212,6 +240,59 @@
 						<exclude>android:android</exclude>
 					</excludes>
 				</configuration>
+			</plugin>
+			 <plugin>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-jarsigner-plugin</artifactId>
+			    <executions>
+				<execution>
+				    <id>signing</id>
+				    <goals>
+					<goal>sign</goal>
+					<goal>verify</goal>
+				    </goals>
+				    <phase>package</phase>
+				    <inherited>true</inherited>
+				    <configuration>
+					<removeExistingSignatures>true</removeExistingSignatures>
+					<archiveDirectory/>
+					<includes>
+					    <include>${project.build.directory}/${project.artifactId}.apk</include>
+					</includes>
+					<keystore>${sign.keystore}</keystore>
+					<alias>${sign.alias}</alias>
+					<storepass>${sign.storepass}</storepass>
+					<keypass>${sign.keypass}</keypass>
+					<verbose>true</verbose>
+				    </configuration>
+				</execution>
+			    </executions>
+			</plugin>
+			<!-- the signed apk then needs to be zipaligned -->
+			<plugin>
+			    <groupId>com.jayway.maven.plugins.android.generation2</groupId>
+			    <artifactId>maven-android-plugin</artifactId>
+			    <inherited>true</inherited>
+			    <configuration>
+				<sign>
+				    <debug>false</debug>
+				</sign>
+				<zipalign>
+				    <verbose>true</verbose>
+				    <inputApk>${project.build.directory}/${project.artifactId}.apk</inputApk>
+				    <outputApk>${project.build.directory}/${project.artifactId}-signed-aligned.apk
+				    </outputApk>
+				</zipalign>
+			    </configuration>
+			    <executions>
+				<execution>
+				    <id>alignApk</id>
+				    <phase>package</phase>
+				    <goals>
+					<goal>zipalign</goal>
+				    </goals>
+				</execution>
+			    </executions>
 			</plugin>
 		</plugins>
 	</build>

@@ -22,5 +22,12 @@ Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 
 Лицензия: GPLv3
+<<<<<<< HEAD
 Используйте на свой риск!
 http://www.gnu.org/licenses/gpl-3.0.ru.html
+=======
+Используйте на свой страх и риск!
+
+--
+LTC Bitcoin Wallet blockchain bitcoinandroid androidbitcoin Geldbörse Кошелёк mobile payment
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d

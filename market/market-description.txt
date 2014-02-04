@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Have your Dogecoins always with you, in your pocket! You pay by quickly scanning a QR-code. As a merchant, you receive payments reliably and instantly. Dogecoin Wallet is the first mobile Dogecoin app, and arguably also the most secure!
 
 FEATURES:
@@ -10,6 +11,23 @@ FEATURES:
 • When you're offline, you can still pay via Bluetooth.
 • System notification for received coins.
 • App widget for Dogecoin balance.
+=======
+With this app you always have your Litecoins with you, in your pocket! You can
+send payments simply by scanning a QR-code or by touching two phones together
+(NFC). Litecoin Wallet is designed to be easy to use and reliable, while also
+being secure and fast.
+
+FEATURES:
+
+• No cloud server or web service needed! This wallet is truly peer to peer.
+• Display of wallet balance in Litecoin and various other currencies.
+• Sending and receiving of Litecoin via NFC, QR-codes or Litecoin URLs.
+• Address book for regularly used Litecoin addresses.
+• Enter transactions while offline, will be executed when online.
+• Manages blockchain on your device (for enhanced security).
+• System notifications for Litecoin connectivity and received coins.
+• App widget for Litecoin balance (requirement: app moved to phone).
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 
 You can find more about Dogecoin at
 http://dogecoin.org
@@ -17,10 +35,33 @@ http://dogecoin.org
 If you want to contribute to Dogecoin Wallet, the project is located at
 https://github.com/langerhans/dogecoin-wallet-new
 
+<<<<<<< HEAD
 This is a fork of the popular Bitcoin Wallet by Andreas Schildbach and was converted to Dogecoin by me.
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
+=======
+More Information:
+
+This app is based upon the excellent work done by the Bitcoin Wallet developers:
+https://code.google.com/p/bitcoin-wallet/
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
+
+It used a masterfully converted library called litecoinj, which was converted
+from bitcoinj:
+https://code.google.com/p/litecoinj/
+
+You can find more about Litecoin at
+http://litecoin.org
+
+If you want to contribute to Litecoin Wallet, the project is located at
+http://www.github.com/hank/litecoin-wallet
 
 License: GPLv3
 Use at your own risk!
+<<<<<<< HEAD
 http://www.gnu.org/licenses/gpl-3.0.en.html
+=======
+
+--
+LTC bitcoin wallet blockchain bitcoinandroid androidbitcoin Geldbörse Кошелёк mobile payment
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d

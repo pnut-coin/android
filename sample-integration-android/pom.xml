@@ -7,10 +7,17 @@
 	<artifactId>sample-integration-android</artifactId>
 	<packaging>apk</packaging>
 	<version>1.0</version>
+<<<<<<< HEAD
 	<name>Sample for Dogecoin Integration for Android</name>
 
 	<parent>
 		<groupId>de.langerhans.wallet</groupId>
+=======
+	<name>Sample for Litecoin Integration for Android</name>
+
+	<parent>
+		<groupId>de.schildbach.wallet.litecoin</groupId>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 		<artifactId>base</artifactId>
 		<version>1</version>
 	</parent>
@@ -25,9 +32,13 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<!-- de.schildbach.wallet.integration.android.* -->
+		<!-- de.schildbach.wallet.litecoin.integration.android.* -->
 		<dependency>
+<<<<<<< HEAD
 			<groupId>de.langerhans.wallet</groupId>
+=======
+			<groupId>de.schildbach.wallet.litecoin</groupId>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 			<artifactId>integration-android</artifactId>
 			<version>1.0</version>
 		</dependency>

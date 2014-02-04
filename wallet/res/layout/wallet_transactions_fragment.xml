@@ -4,7 +4,11 @@
 	android:layout_height="wrap_content"
 	android:orientation="vertical" >
 
+<<<<<<< HEAD
 	<de.langerhans.wallet.util.ViewPagerTabs
+=======
+	<de.schildbach.wallet.litecoin.util.ViewPagerTabs
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 		android:id="@+id/transactions_pager_tabs"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"

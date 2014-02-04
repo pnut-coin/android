@@ -55,7 +55,11 @@
 
 	<string name="about_title">关于</string>
 	<string name="about_license_title">授权</string>
+<<<<<<< HEAD
 	<string name="about_credits_bitcoinj_title">本程序使用 dogecoinj %s</string>
+=======
+	<string name="about_credits_litecoinj_title">本程序使用 litecoinj %s</string>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 	<string name="about_credits_zxing_title">"本程序使用 'zxing'"</string>
 	<string name="about_credits_icon_title">"本程序使用 'dogecoin' 制作的图标"</string>
 	<string name="about_author_twitter_title">作者Twitter</string>

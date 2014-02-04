@@ -2,6 +2,7 @@
 <resources>
 
 	<string name="toast_wallet_reset">Cüzdan sıfırlanmış,\ntamamlanması belli bir süre alacaktır.</string>
+<<<<<<< HEAD
 	<string name="wallet_disclaimer_fragment_remind_safety">Tüm riski siz üstlenmiş olursunuz. &lt;u>Güvenlik notlarını&lt;/u> okuyunuz.</string>
 	<string name="wallet_disclaimer_fragment_remind_backup">&lt;u>Cüzdanınızı yedeklemeniz&lt;/u> gerekmektedir!</string>
 	<string name="blockchain_state_progress_hours">%1$s, %2$d saat geride</string>
@@ -18,6 +19,22 @@
 	<string name="wallet_addresses_fragment_add_dialog_message">Dogecoin adresleri silinemez. Cüzdanınıza yeni bir adres eklemek istediğinizden emin misiniz?</string>
 	<string name="wallet_balance_fragment_replaying">Tekrar sırasında bakiye kullanılamaz</string>
 	<string name="exchange_rates_activity_title">Döviz kurları</string>
+=======
+	<string name="blockchain_state_disclaimer">Tüm riski siz üstlenmiş olursunuz. Güvenlik notlarını okuyunuz.</string>
+	<string name="blockchain_state_progress_hours">Blok zinciri %1$s, %2$d saat geride</string>
+	<string name="blockchain_state_progress_days">Blok zinciri %1$s, %2$d gün geride</string>
+	<string name="blockchain_state_progress_weeks">Blok zinciri %1$s, %2$d hafta geride</string>
+	<string name="blockchain_state_progress_months">Blok zinciri %1$s, %2$d ay geride</string>
+	<string name="blockchain_state_progress_downloading">indiriliyor</string>
+	<string name="blockchain_state_progress_stalled">durakladı</string>
+	<string name="blockchain_state_progress_problem_storage">Blok zinciri indirilmiyor: kayıt problemi</string>
+	<string name="blockchain_state_progress_problem_power">Blok zinciri indirilmiyor: pil problemi</string>
+	<string name="blockchain_state_progress_problem_network">Blok zinciri indirilmiyor: şebeke problemi</string>
+	<string name="wallet_address_fragment_your">Litecoin adresiniz:</string>
+	<string name="wallet_address_fragment_clipboard_msg">Litecoin adresi panoya kopyalandı</string>
+	<string name="wallet_addresses_fragment_add_dialog_title">Litecoin adresi ekle</string>
+	<string name="wallet_addresses_fragment_add_dialog_message">Litecoin adresleri silinemez. Cüzdanınıza yeni bir adres eklemek istediğinizden emin misiniz?</string>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 	<string name="exchange_rates_fragment_empty_text">Döviz kurları yüklenemedi</string>
 	<string name="exchange_rates_fragment_default">(varsayılan)</string>
 	<string name="exchange_rates_fragment_rate">oran</string>
@@ -27,10 +44,15 @@
 	<string name="wallet_transactions_fragment_tab_received">Alınan</string>
 	<string name="wallet_transactions_fragment_tab_all">İkisi</string>
 	<string name="wallet_transactions_fragment_tab_sent">Yollanan</string>
+<<<<<<< HEAD
 	<string name="wallet_transactions_fragment_empty_text_received">Şimdiye kadar hiçbir Dogecoin alınmadı</string>
 	<string name="wallet_transactions_fragment_empty_text_sent">Şimdiye kadar hiçbir Dogecoin gönderilmedi</string>
 	<string name="wallet_transactions_fragment_empty_text_howto">Dogecoin nasıl elde edilir?\n\nGeleneksel parayla alabilir,\nmal veya hizmet satabilir veya\nçalışarak kazanabilirsiniz.</string>
 	<string name="wallet_transactions_row_warning_backup">Tebrikler, ilk ödemenizi almış bulunuyorsunuz! Kayba karşı korunmak için &lt;u>cüzdanınızı yedeklediniz mi&lt;/u>?</string>
+=======
+	<string name="wallet_transactions_fragment_empty_text_received">Şimdiye kadar hiçbir Litecoin alınmadı</string>
+	<string name="wallet_transactions_fragment_empty_text_sent">Şimdiye kadar hiçbir Litecoin gönderilmedi</string>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 	<string name="wallet_transactions_fragment_coinbase">oluşturulan</string>
 	<string name="wallet_transactions_fragment_internal">Dahili</string>
 	<string name="wallet_transactions_context_show_qr_title">QR kodu göster</string>
@@ -40,15 +62,23 @@
 	<string name="wallet_options_donate">Bağış</string>
 	<string name="wallet_donate_address_label">Bu yazılıma bağış yap</string>
 	<string name="wallet_low_storage_dialog_title">Düşük dahili cihaz depolama alanı!</string>
+<<<<<<< HEAD
 	<string name="wallet_low_storage_dialog_msg">Dogecoin cüzdanı muameleleri ve blokları hatırlamak için dahili depolama alanını kullanır. Bu alan yetersiz kalırsa cüzdan çalışmayı durduracak ve Dogecoinleriniz risk altında kalacaktır!\n\nKullanılmayan uygulamaları kaldırmak için Uygulama Yöneticisini başlatmak ister misiniz?</string>
 	<string name="wallet_low_storage_dialog_button_apps">Uygulama yönetimi</string>
 	<string name="wallet_timeskew_dialog_title">Saat ayarınızı kontrol ediniz!</string>
 	<string name="wallet_timeskew_dialog_msg">Cihazınızın saati %d dakika gecikmiş ya da ileride. Muhtemelen bu problem sebebiyle Dogecoin alamayacaksınız ve yollayamayacaksınız.\n\nSaat ve zaman diliminizi kontrol edip düzeltmeniz gerekir.</string>
+=======
+	<string name="wallet_low_storage_dialog_msg">Litecoin cüzdanı muameleleri ve blokları hatırlamak için dahili depolama alanını kullanır. Bu alan yetersiz kalırsa cüzdan çalışmayı durduracak ve Litecoinleriniz risk altında kalacaktır!\n\nKullanılmayan uygulamaları kaldırmak için Uygulama Yöneticisini başlatmak ister misiniz?</string>
+	<string name="wallet_low_storage_dialog_button_apps">Uygulama yönetimi</string>
+	<string name="wallet_timeskew_dialog_title">Saat ayarınızı kontrol ediniz!</string>
+	<string name="wallet_timeskew_dialog_msg">Cihazınızın saati %d dakika gecikmiş ya da ileride. Muhtemelen bu problem sebebiyle Litecoin alamayacaksınız ve yollayamayacaksınız.\n\nSaat ve zaman diliminizi kontrol edip düzeltmeniz gerekir.</string>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 	<string name="wallet_timeskew_dialog_button_settings">Ayarlar</string>
 	<string name="wallet_version_dialog_title">Yeni bir sürüm mevcuttur!</string>
 	<string name="wallet_version_dialog_msg">Bu sürüm önemli hata düzeltmeleri içerir. Detaylar için Google Play\'de değişikliklere bakınız.</string>
 	<string name="wallet_version_dialog_button_market">Google Play</string>
 	<string name="wallet_version_dialog_button_binary">İndir</string>
+<<<<<<< HEAD
 	<string name="wallet_old_sdk_dialog_title">Android sürümü eski</string>
 	<string name="wallet_old_sdk_dialog_message">Gelecek Dogecoin Wallet sürümünün cihazınızı desteklememesi mümkündür. Bazı durumlarda bu cihazla bitcoin harcamak zor olabilir.\n\nDogecoinlerinizi güvenli bir yere aktarmanız tavsiye edilir.</string>
 	<string name="send_coins_activity_title">Dogecoin gönder</string>
@@ -59,6 +89,18 @@
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Bilinmeyen bir şebekenin adresi bu cüzdanla kullanılamaz!</string>
 	<string name="send_coins_fragment_available_label">Harcamak için kullanılabilir</string>
 	<string name="send_coins_fragment_pending">(%s DOGE teyit bekliyor)</string>
+=======
+	<string name="send_coins_activity_title">Litecoin gönder</string>
+	<string name="send_coins_uri_parse_error_title">Geçersiz Litecoin URİ\'si</string>
+	<string name="send_coins_parse_address_error_msg">Geçersiz litecoin adresi alındı!\n(Testnet ile Prodnet karışmış olmasın?)</string>
+	<string name="send_coins_fragment_receiving_address_label">Şuna öde</string>
+	<string name="send_coins_fragment_receiving_address_hint">adını veya adresini giriniz</string>
+	<string name="send_coins_fragment_receiving_address_error">Geçersiz Litecoin adresi!</string>
+	<string name="send_coins_fragment_receiving_address_error_cross_network">%s adresi bu cüzdanla kullanılamaz!</string>
+	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Bilinmeyen bir şebekenin adresi bu cüzdanla kullanılamaz!</string>
+	<string name="send_coins_fragment_available_label">Harcamak için kullanılabilir</string>
+	<string name="send_coins_fragment_pending">(%s LTC teyit bekliyor)</string>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 	<string name="send_coins_fragment_amount_label">Ödenecek miktar</string>
 	<string name="send_coins_fragment_amount_empty">Miktarı buraya giriniz</string>
 	<string name="send_coins_fragment_amount_error">Geçersiz miktar!</string>
@@ -70,6 +112,7 @@
 	<string name="send_coins_preparation_msg">İmzalanıyor…</string>
 	<string name="send_coins_sending_msg">Gönderiliyor…</string>
 	<string name="send_coins_sent_msg">Gönderildi!</string>
+<<<<<<< HEAD
 	<string name="send_coins_failed_msg">Başarısız oldu!</string>
 	<string name="send_coins_error_msg">Dogecoin gönderimi sırasında problem oluştu!</string>
 	<string name="send_coins_options_empty">Boş cüzdan</string>
@@ -84,11 +127,30 @@
 	<string name="request_coins_clipboard_msg">Dogecoin talebi panoya kopyalandı</string>
 	<string name="request_coins_share_dialog_title">Dogecoin talebini yayınla…</string>
 	<string name="request_coins_options_local_app_title">Yerel uygulamadan talep</string>
+=======
+	<string name="send_coins_add_address_dialog_title">Alıcı henüz adres defterinizde bulunmamaktadır.\n\nAdresini eklemek ister misiniz?</string>
+	<string name="send_coins_add_address_dialog_button_add">Adres ekle</string>
+	<string name="send_coins_error_msg">Litecoin gönderimi sırasında problem oluştu!</string>
+	<string name="send_coins_options_scan_title">Tara</string>
+	<string name="send_coins_address_context_clear_title">Yeni adres gir</string>
+	<string name="request_coins_activity_title">Litecoin talebi</string>
+	<string name="request_coins_fragment_address_label">Talep için kullanılacak adres</string>
+	<string name="request_coins_fragment_include_address_label">adrese etiket iliştir</string>
+	<string name="request_coins_fragment_amount_label">Talep edilen miktar (seçime dayalı)</string>
+	<string name="request_coins_fragment_qr_label">Gönderici tarafından taranacak QR kodu:</string>
+	<string name="request_coins_fragment_nfc_enabled">Veya NFC destekleyen bir cihazla dokunmak.</string>
+	<string name="request_coins_clipboard_msg">Litecoin talebi panoya kopyalandı</string>
+	<string name="request_coins_share_dialog_title">Litecoin talebini yayınla…</string>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 	<string name="address_book_activity_title">Adres defteri</string>
 	<string name="address_book_list_receiving_title">Alım adresleri</string>
 	<string name="address_book_list_sending_title">Gönderi adresleri</string>
 	<string name="address_book_empty_text">Adres defterinde hiçbir adres yok</string>
+<<<<<<< HEAD
 	<string name="address_book_context_send_title">Şu adrese Dogecoin gönder</string>
+=======
+	<string name="address_book_context_send_title">Şu adrese Litecoin gönder</string>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 	<string name="address_book_context_edit_title">Adresi düzenle</string>
 	<string name="address_book_context_remove_title">Adresi kaldır</string>
 	<string name="address_book_context_show_qr_title">QR kodu göster</string>
@@ -180,14 +242,22 @@
 	<string name="report_issue_dialog_mail_intent_chooser">Raporu şununla gönder…</string>
 	<string name="about_title">Hakkında</string>
 	<string name="about_license_title">Lisans</string>
+<<<<<<< HEAD
 	<string name="about_credits_bitcoinj_title">Bu uygulama dogecoinj %s kullanmaktadır</string>
+=======
+	<string name="about_credits_litecoinj_title">Bu uygulama litecoinj %s kullanmaktadır</string>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 	<string name="about_credits_zxing_title">Bu uygulama \'zxing\' kullanmaktadır</string>
 	<string name="about_credits_icon_title">Bu uygulama \'dogecoin\' tarafından oluşturulan bir ikon kullanır</string>
 	<string name="about_author_twitter_title">Geliştiricinin Twitter sayfası</string>
 	<string name="about_author_googleplus_title">Geliştiricinin Google+ sayfası</string>
 	<string name="about_market_app_title">Android Market uygulama sayfası</string>
 	<string name="about_credits_market_publisher_title">Geliştiricinin diğer uygulamaları</string>
+<<<<<<< HEAD
 	<string name="notification_coins_received_msg">%s alındı</string>
+=======
+	<string name="notification_coins_received_msg">%s LTC alındı</string>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 	<string name="notification_peers_connected_msg">%d eş bağlı</string>
 	<!-- generic buttons -->
 	<string name="button_ok">Tamam</string>
@@ -201,9 +271,14 @@
 	<string name="button_paste">Yapıştır</string>
 	<string name="button_share">Paylaş</string>
 	<string name="button_set_as_default">Varsayılan olarak ayarla</string>
+<<<<<<< HEAD
 	<string name="button_request_coins">Dogecoin talep et</string>
 	<string name="button_send_coins">Dogecoin gönder</string>
 	<string name="button_scan">Tara</string>
+=======
+	<string name="button_request_coins">Litecoin talep et</string>
+	<string name="button_send_coins">Litecoin gönder</string>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 	<string name="button_edit_address">Adres ilâve et/düzenle</string>
 	<string name="action_open_blockexplorer">dogechain.info\'da aç</string>
 	<string name="time_today">bugün</string>

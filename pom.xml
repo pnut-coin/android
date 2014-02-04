@@ -4,7 +4,11 @@
 
 	<modelVersion>4.0.0</modelVersion>
 
+<<<<<<< HEAD
 	<groupId>de.langerhans.wallet</groupId>
+=======
+	<groupId>de.schildbach.wallet.litecoin</groupId>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 	<artifactId>base</artifactId>
 	<name>base</name>
 	<version>1</version>

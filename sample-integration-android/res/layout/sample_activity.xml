@@ -10,7 +10,11 @@
 		android:layout_height="wrap_content"
 		android:layout_gravity="center"
 		android:layout_marginTop="32dp"
+<<<<<<< HEAD
 		android:text="This demonstrates the integration of a &quot;Donate Dogecoins&quot; button in your app." />
+=======
+		android:text="This demonstrates the integration of a &quot;Donate Litecoins&quot; button in your app." />
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 
 	<FrameLayout
 		android:layout_width="fill_parent"

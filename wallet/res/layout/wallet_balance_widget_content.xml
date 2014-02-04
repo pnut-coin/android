@@ -35,6 +35,10 @@
 				android:layout_height="wrap_content"
 				android:layout_marginLeft="12dp"
 				android:singleLine="true"
+<<<<<<< HEAD
+=======
+				android:text="LTC"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 				android:textColor="#bbb"
 				android:textSize="24sp"
 				tools:ignore="HardcodedText" />

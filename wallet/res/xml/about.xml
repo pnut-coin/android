@@ -6,7 +6,11 @@
 			android:key="about_version"
 			android:title="Version" />
 		<Preference
+<<<<<<< HEAD
 			android:summary="© 2011-2013, Andreas Schildbach\n© 2013-2014, Maximilian Keller"
+=======
+			android:summary="© 2011-2013, Erik Gregg"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 			android:title="Copyright" />
 		<Preference
 			android:key="about_license"
@@ -14,6 +18,13 @@
 		<Preference
 			android:key="about_source"
 			android:title="Source Code" />
+<<<<<<< HEAD
+=======
+		<Preference android:key="about_credits_litecoinj" />
+		<Preference
+			android:key="about_credits_zxing"
+			android:title="@string/about_credits_zxing_title" />
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 		<Preference
 			android:key="about_market_app"
 			android:summary="@string/about_market_app_summary"
@@ -24,11 +35,19 @@
 			android:title="@string/about_community_googleplus_title" />-->
 		<Preference
 			android:key="about_author_twitter"
+<<<<<<< HEAD
 			android:summary="\@langer_hans"
 			android:title="@string/about_author_twitter_title" />
 		<Preference
 			android:key="about_author_googleplus"
 			android:summary="+Maximilian Keller"
+=======
+			android:summary="\@litecoin_wallet"
+			android:title="@string/about_author_twitter_title" />
+		<Preference
+			android:key="about_author_googleplus"
+			android:summary="+Erik Gregg"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 			android:title="@string/about_author_googleplus_title" />
 		<Preference
 			android:key="about_market_publisher"

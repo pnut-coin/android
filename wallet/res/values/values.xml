@@ -3,8 +3,12 @@
 
 	<string name="symbol_to">→</string>
 	<string name="symbol_from">←</string>
+<<<<<<< HEAD
 	<string name="symbol_internal">⇄</string>
 	<string name="app_name">Dogecoin Wallet</string>
+=======
+	<string name="app_name">OLD Litecoin Wallet</string>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 
 	<string-array name="preferences_precision_values">
 		<item>8</item>

@@ -13,7 +13,11 @@
 		android:textSize="@dimen/font_size_small"
 		android:textStyle="bold" />
 
+<<<<<<< HEAD
 	<de.langerhans.wallet.ui.CurrencyTextView
+=======
+	<de.schildbach.wallet.litecoin.ui.CurrencyTextView
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 		android:id="@+id/send_coins_popup_available_amount"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"

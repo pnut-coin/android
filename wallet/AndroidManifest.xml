@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:tools="http://schemas.android.com/tools"
+<<<<<<< HEAD
 	package="de.langerhans.wallet"
 	android:installLocation="internalOnly"
 	android:versionCode="155"
 	android:versionName="1.05" >
+=======
+	package="de.schildbach.wallet.litecoin"
+	android:installLocation="auto"
+	android:versionCode="10019"
+	android:versionName="1.099" >
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 
 	<uses-sdk
 		android:minSdkVersion="10"
@@ -56,23 +63,37 @@
 		android:xlargeScreens="true" />
 
 	<application
+<<<<<<< HEAD
 		android:name="de.langerhans.wallet.WalletApplication"
+=======
+		android:name=".WalletApplication"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 		android:allowBackup="false"
 		android:hardwareAccelerated="true"
 		android:icon="@drawable/app_icon"
 		android:label="@string/app_name"
 		android:theme="@style/My.Theme" >
 		<activity
+<<<<<<< HEAD
 			android:name="de.langerhans.wallet.ui.WalletActivity"
+=======
+			android:name=".ui.WalletActivity"
+            android:exported="true"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 			android:configChanges="keyboard|keyboardHidden"
 			android:launchMode="singleTask" />
 
 		<activity-alias
+<<<<<<< HEAD
 			android:name="de.langerhans.wallet.WalletActivity"
 			android:targetActivity="de.langerhans.wallet.ui.WalletActivity" >
+=======
+			android:name=".WalletActivity"
+			android:targetActivity=".ui.WalletActivity"
+            android:exported="true" >
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
-
 				<category android:name="android.intent.category.LAUNCHER" />
 			</intent-filter>
 			<intent-filter>
@@ -85,11 +106,16 @@
 		</activity-alias>
 
 		<activity
+<<<<<<< HEAD
 			android:name="de.langerhans.wallet.ui.SendCoinsActivity"
+=======
+			android:name=".ui.SendCoinsActivity"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 			android:configChanges="keyboard|keyboardHidden"
 			android:label="@string/send_coins_activity_title"
 			android:screenOrientation="behind"
 			android:windowSoftInputMode="adjustResize" >
+<<<<<<< HEAD
 			<intent-filter android:label="@string/send_coins_activity_title" >
 				<action android:name="android.intent.action.VIEW" />
 
@@ -113,26 +139,50 @@
 		</activity>
 		<activity
 			android:name="de.langerhans.wallet.ui.RequestCoinsActivity"
+=======
+		</activity>
+		<activity
+			android:name=".ui.RequestCoinsActivity"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 			android:configChanges="keyboard|keyboardHidden"
 			android:label="@string/request_coins_activity_title"
 			android:screenOrientation="behind"
 			android:windowSoftInputMode="adjustResize" />
 		<activity
+<<<<<<< HEAD
 			android:name="de.langerhans.wallet.ui.AddressBookActivity"
+=======
+			android:name=".ui.TransactionActivity"
+			android:configChanges="keyboard|keyboardHidden"
+			android:label="@string/transaction_activity_title"
+			android:screenOrientation="behind" >
+		</activity>
+		<activity
+			android:name=".ui.AddressBookActivity"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 			android:configChanges="keyboard|keyboardHidden"
 			android:label="@string/address_book_activity_title"
 			android:screenOrientation="behind" />
 		<activity
+<<<<<<< HEAD
 			android:name="de.langerhans.wallet.ui.ExchangeRatesActivity"
+=======
+			android:name=".ui.ExchangeRatesActivity"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 			android:configChanges="keyboard|keyboardHidden"
 			android:label="@string/exchange_rates_activity_title"
 			android:screenOrientation="behind" />
 		<activity
+<<<<<<< HEAD
 			android:name="de.langerhans.wallet.ui.NetworkMonitorActivity"
+=======
+			android:name=".ui.PeerMonitorActivity"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 			android:configChanges="keyboard|keyboardHidden"
 			android:label="@string/network_monitor_activity_title"
 			android:screenOrientation="behind" />
 		<activity
+<<<<<<< HEAD
 			android:name="de.langerhans.wallet.ui.PreferencesActivity"
 			android:label="@string/preferences_activity_title"
 			android:screenOrientation="behind" />
@@ -173,6 +223,33 @@
 		<receiver
 			android:name="de.langerhans.wallet.WalletBalanceWidgetProvider"
 			android:label="Dogecoin Wallet Balance" >
+=======
+			android:name=".ui.BlockExplorerActivity"
+			android:configChanges="keyboard|keyboardHidden"
+			android:label="@string/block_explorer_activity_title"
+			android:screenOrientation="behind" />
+		<activity
+			android:name=".ui.PreferencesActivity"
+			android:label="@string/preferences_activity_title"
+			android:screenOrientation="behind" />
+		<activity
+			android:name=".ui.AboutActivity"
+			android:label="@string/about_title"
+			android:screenOrientation="behind" />
+
+		<provider
+			android:name=".AddressBookProvider"
+			android:authorities="de.schildbach.wallet.litecoin.address_book"
+			android:exported="false" />
+		<provider
+			android:name=".ExchangeRatesProvider"
+			android:authorities="de.schildbach.wallet.litecoin.exchange_rates"
+			android:exported="false" />
+
+		<receiver
+			android:name=".WalletBalanceWidgetProvider"
+			android:label="Litecoin Wallet Balance" >
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 			<intent-filter>
 				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
 			</intent-filter>
@@ -183,6 +260,7 @@
 		</receiver>
 
 		<service
+<<<<<<< HEAD
 			android:name="de.langerhans.wallet.service.BlockchainServiceImpl"
 			android:exported="false" />
 		<service
@@ -190,6 +268,12 @@
 			android:exported="false" />
 
 		<receiver android:name="de.langerhans.wallet.service.AutosyncReceiver" >
+=======
+			android:name=".service.BlockchainServiceImpl"
+			android:exported="false" />
+
+		<receiver android:name=".service.AutosyncReceiver" >
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 			<intent-filter>
 				<action android:name="android.intent.action.BOOT_COMPLETED" />
 				<action android:name="android.intent.action.ACTION_POWER_CONNECTED" />

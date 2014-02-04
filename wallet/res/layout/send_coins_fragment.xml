@@ -65,7 +65,12 @@
 		android:textSize="@dimen/font_size_small"
 		android:textStyle="bold" />
 
+<<<<<<< HEAD
 	<LinearLayout
+=======
+	<de.schildbach.wallet.litecoin.ui.CurrencyAmountView
+		android:id="@+id/send_coins_amount"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:layout_marginLeft="@dimen/list_entry_padding_horizontal"
@@ -78,6 +83,7 @@
 			android:id="@+id/send_coins_amount_btc"
 			android:layout_width="0px"
 			android:layout_height="wrap_content"
+<<<<<<< HEAD
 			android:layout_weight="1" >
 
 			<EditText
@@ -114,6 +120,37 @@
 		android:layout_marginTop="8dp"
 		android:text="@string/send_coins_fragment_bluetooth_enable"
 		android:textSize="@dimen/font_size_normal" />
+=======
+			android:imeOptions="flagNoExtractUi"
+			android:textSize="@dimen/font_size_xlarge"
+			tools:ignore="TextFields" />
+	</de.schildbach.wallet.litecoin.ui.CurrencyAmountView>
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_marginTop="8dp"
+		android:text="@string/send_coins_fragment_fee_label"
+		android:textSize="@dimen/font_size_small"
+		android:textStyle="bold" />
+
+	<de.schildbach.wallet.litecoin.ui.CurrencyAmountView
+		android:id="@+id/send_coins_fee"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="@dimen/list_entry_padding_horizontal"
+		android:layout_marginRight="@dimen/list_entry_padding_horizontal" >
+
+		<EditText
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:imeOptions="flagNoExtractUi"
+			android:textSize="@dimen/font_size_xlarge"
+			tools:ignore="TextFields" />
+	</de.schildbach.wallet.litecoin.ui.CurrencyAmountView>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 
 	<!-- stretch dummy -->
 

@@ -31,12 +31,22 @@
 			android:background="@color/bg_bright"
 			android:foreground="@drawable/fragment_shadow_horizontal_light"
 			android:foregroundGravity="top|fill_horizontal" >
-
+<!--
 			<fragment
 				android:id="@+id/wallet_addresses_fragment"
+<<<<<<< HEAD
 				android:name="de.langerhans.wallet.ui.WalletAddressesFragment"
+=======
+				android:name="de.schildbach.wallet.litecoin.ui.WalletAddressesFragment"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 				android:layout_width="match_parent"
 				android:layout_height="match_parent" />
+-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/under_construction"
+                android:text="@string/under_construction" />
 		</FrameLayout>
 	</LinearLayout>
 
@@ -75,7 +85,11 @@
 
 			<fragment
 				android:id="@+id/sending_addresses_fragment"
+<<<<<<< HEAD
 				android:name="de.langerhans.wallet.ui.SendingAddressesFragment"
+=======
+				android:name="de.schildbach.wallet.litecoin.ui.SendingAddressesFragment"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 				android:layout_width="match_parent"
 				android:layout_height="match_parent" />
 		</FrameLayout>

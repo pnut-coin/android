@@ -8,7 +8,11 @@
 
 	<fragment
 		android:id="@+id/send_coins_fragment"
+<<<<<<< HEAD
 		android:name="de.langerhans.wallet.ui.SendCoinsFragment"
+=======
+		android:name="de.schildbach.wallet.litecoin.ui.SendCoinsFragment"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content" />
 

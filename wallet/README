@@ -9,7 +9,7 @@ Your wallet and your private keys are stored in app internal storage:
 	Wallet for Testnet
 
 The wallet file format is not compatible to wallet.dat (Satoshi client). Rather, it uses a custom protobuf format
-which should be compatible between clients using bitcoinj.
+which should be compatible between clients using litecoinj.
 
 Certain actions cause automatic rolling backups of your private keys to app-private storage:
 
@@ -21,11 +21,19 @@ Certain actions cause automatic rolling backups of your private keys to app-priv
 
 Private keys can be manually backed up to and restored from external storage:
 
+<<<<<<< HEAD
 /sdcard/Download/dogecoin-wallet-keys-<yyyy-MM-dd>
 	Manual backups of private keys for Mainnet
 
 /sdcard/Download/dogecoin-wallet-keys-testnet-<yyyy-MM-dd>
 	Manual backups of private keys for Testnet
+=======
+/sdcard/Download/litecoin-wallet-keys-<yyyy-MM-dd>
+	Export of private keys for prodnet
+
+/sdcard/Download/litecoin-wallet-keys-testnet-<yyyy-MM-dd>
+	Export of private keys for testnet
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 
 The manual backup files are encrypted using your chosen password. You can use OpenSSL to decrypt:
 
@@ -70,8 +78,9 @@ and unpack it to your workspace directory. Switch to that Android SDK directory,
 
 to download the necessary API level.
 
-Next, you need to build bitcoinj. In your workspace, use
+Next, you need to build litecoinj. In your workspace, use
 
+<<<<<<< HEAD
 	# first time only
 	git clone -b release-0.10 https://code.google.com/r/bitcoinj/ bitcoinj
 	cd bitcoinj
@@ -86,6 +95,17 @@ use
 	# each time
 	cd bitcoin-wallet
 	git pull
+=======
+	git clone -b release-0.7 https://code.google.com/p/litecoinj/ litecoinj
+	cd litecoinj
+	mvn clean install
+
+Finally, you can build Litecoin Wallet and sign it with your development key. Again in your workspace,
+use
+
+	git clone https://code.google.com/p/litecoin-wallet/ litecoin-wallet
+	cd litecoin-wallet
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 	mvn clean install -Dandroid.sdk.path=<path to your android sdk>
 
 To upload the app to your Android device, use
@@ -120,8 +140,12 @@ Make sure you've got Eclipse 3.7 (Indigo) with ADT 20 installed.
 
 Use Git to check out the project and an Android library dependency to your workspace:
 
+<<<<<<< HEAD
 	# clone Dogecoin Wallet project
 	git clone -b master https://github.com/schildbach/bitcoin-wallet.git bitcoin-wallet
+=======
+  git clone https://code.google.com/p/litecoin-wallet/ litecoin-wallet
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 
 	# clone ActionBarSherlock library project
 	git clone https://github.com/JakeWharton/ActionBarSherlock.git action-bar-sherlock
@@ -144,7 +168,11 @@ Java Compiler -> Errors/Warnings -> Annotations -> Missing @Override annotation 
 
 NFC (Near field communication)
 
+<<<<<<< HEAD
 Dogecoin Wallet supports reading Dogecoin requests via NFC, either from a passive NFC tag or from
+=======
+Litecoin Wallet supports reading Litecoin requests via NFC, either from a passive NFC tag or from
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 another NFC capable Android device that is requesting coins.
 
 For this to work, just enable NFC in your phone and hold your phone to the tag or device (with
@@ -158,31 +186,45 @@ Instructions for preparing an NFC tag with your address:
 
 - Some tags have less than 50 bytes capacity, those won't work. 1 KB tags recommended.
 
+<<<<<<< HEAD
 - The tag needs to contain a Dogecoin URI. You can construct one with the "Request coins" dialog,
   then share with messaging or email. You can also construct the URI manually. Example for Mainnet:
   dogecoin:DEwTHxztkSDUJEMywbPk5zVUGrupaNRqEy
+=======
+- The tag needs to contain a Litecoin URI. You can construct one with the "Request coins" dialog,
+  then share with messaging or email. You can also construct the URI manually. Example for Prodnet:
+  litecoin:1G2Y2jP5YFZ5RGk2PXaeWwbeA5y1ZtFhoL
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 
 - The type of the message needs to be URI or URL (not Text).
 
 - If you put your tag at a public place, don't forget to enable write protect. Otherwise, someone
+<<<<<<< HEAD
   could overwrite the tag with his own Dogecoin address.
+=======
+  could overwrite the tag with his own Litecoin address.
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 
 
 EXCHANGE RATES
 
+<<<<<<< HEAD
 Dogecoin Wallet reads this feed from "bitcoin charts" for getting exchange rates:
+=======
+Litecoin Wallet reads this feed from "litecoin charts" for getting exchange rates:
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 
-	http://bitcoincharts.com/t/weighted_prices.json
+	http://litecoincharts.com/t/weighted_prices.json
 
 The feed is described on this page (see Weighted Prices):
 
-	http://bitcoincharts.com/about/markets-api/
+	http://litecoincharts.com/about/markets-api/
 
 I chose this feed because it is not dependent on a single exchange. However, you should keep in
 mind it's always a 24h average (falling back to 7d or even 30d if no trade occurred for a long
 time).
 
-If Bitcoincharts is not available, the feed from "Blockchain" is fetched instead:
+If Litecoincharts is not available, the feed from "Blockchain" is fetched instead:
 
 	https://blockchain.info/ticker
 
@@ -191,8 +233,12 @@ The feed is described here:
 	https://blockchain.info/api/exchange_rates_api
 
 
-BITCOINJ
+LITECOINJ
 
+<<<<<<< HEAD
 Dogecoin Wallet uses bitcoinj for Dogecoin specific logic:
+=======
+Litecoin Wallet uses litecoinj for Litecoin specific logic:
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 
-http://code.google.com/p/bitcoinj/
+http://code.google.com/p/litecoinj/

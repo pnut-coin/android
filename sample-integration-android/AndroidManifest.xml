@@ -16,7 +16,11 @@
 		android:normalScreens="true"
 		android:smallScreens="true" />
 
+<<<<<<< HEAD
 	<application android:label="Sample for Dogecoin Integration" >
+=======
+	<application android:label="Sample for Litecoin Integration" >
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 		<activity
 			android:name="de.langerhans.wallet.integration.sample.SampleActivity"
 			android:theme="@android:style/Theme.Light" >

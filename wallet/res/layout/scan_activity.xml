@@ -9,7 +9,11 @@
 		android:layout_height="match_parent"
 		android:keepScreenOn="true" />
 
+<<<<<<< HEAD
 	<de.langerhans.wallet.ui.ScannerView
+=======
+	<de.schildbach.wallet.litecoin.ui.ScannerView
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 		android:id="@+id/scan_activity_mask"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent" />

@@ -15,7 +15,12 @@
 		android:textSize="@dimen/font_size_normal"
 		android:textStyle="bold" />
 
+<<<<<<< HEAD
 	<LinearLayout
+=======
+	<de.schildbach.wallet.litecoin.ui.CurrencyAmountView
+		android:id="@+id/request_coins_amount"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:layout_marginLeft="@dimen/list_entry_padding_horizontal"
@@ -28,6 +33,7 @@
 			android:id="@+id/request_coins_amount_btc"
 			android:layout_width="0px"
 			android:layout_height="wrap_content"
+<<<<<<< HEAD
 			android:layout_weight="1" >
 
 			<EditText
@@ -54,6 +60,12 @@
 				tools:ignore="TextFields" />
 		</de.langerhans.wallet.ui.CurrencyAmountView>
 	</LinearLayout>
+=======
+			android:imeOptions="flagNoExtractUi"
+			android:textSize="@dimen/font_size_xlarge"
+			tools:ignore="TextFields" />
+	</de.schildbach.wallet.litecoin.ui.CurrencyAmountView>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 
 	<TextView
 		android:layout_width="match_parent"

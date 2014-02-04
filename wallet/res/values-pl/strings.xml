@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
 
+<<<<<<< HEAD
 	<string name="toast_wallet_reset">Portfel został zresetowany,\nodtworzenie go zajmie trochę czasu</string>
 	<string name="wallet_disclaimer_fragment_remind_safety">Używaj na własne ryzyko. Przeczytaj &lt;u&gt;instrukcje bezpieczeństwa&lt;/u&gt;.</string>
 	<string name="wallet_disclaimer_fragment_remind_backup">Musisz zrobić &lt;u&gt;kopię zapasową&lt;/u&gt; swojego portfela!</string>
@@ -58,6 +59,33 @@
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">W tym portfelu nie można użyć adresu z nieznanej sieci!</string>
 	<string name="send_coins_fragment_available_label">Do dyspozycji</string>
 	<string name="send_coins_fragment_pending">(%s DOGE oczekuje na potwierdzenie)</string>
+=======
+	<string name="toast_wallet_reset">Portfel został zresetowany,\nponowne załadowanie potrwa trochę czasu</string>
+	
+	<string name="blockchain_state_disclaimer">Używasz jej na własne ryzyko. Proszę przeczytaj wskazówki bezpieczeństwa.</string>
+	<string name="wallet_address_fragment_your">Twój adres Litecoin:</string>
+	<string name="wallet_address_fragment_clipboard_msg">Kopiuj adres Litecoin do schowka</string>
+	<string name="wallet_addresses_fragment_add_dialog_title">Dodaj adres Litecoin</string>
+	<string name="wallet_addresses_fragment_add_dialog_message">Adres Litecoin nie może być skasowany. Chcesz dodać nowy adres do Twojego portfela?</string>
+	<string name="exchange_rates_fragment_empty_text">Kurs wymiany nie mógł być załadowany</string>
+	<string name="wallet_transactions_fragment_tab_received">Otrzymane</string>
+	<string name="wallet_transactions_fragment_tab_all">Wszystkie</string>
+	<string name="wallet_transactions_fragment_tab_sent">Wysłane</string>
+	<string name="wallet_transactions_fragment_empty_text_received">Jeszcze żadne Litecoiny nie zostały otrzymane</string>
+	<string name="wallet_transactions_fragment_empty_text_sent">Jeszcze żadne Litecoiny nie zostały wysłane</string>
+	<string name="wallet_options_safety">Wskazówki bezpieczeństwa</string>
+	<string name="wallet_options_donate">Podaruj</string>
+	<string name="wallet_low_storage_dialog_title">Pamięć wewnętrzna jest niska!</string>
+	<string name="wallet_low_storage_dialog_msg">Litecoin Wallet używa pamięć wewnętrzną na zapamiętywanie transakcji i bloków. Jak nie będzie miejsca w pamięci, portfel przestanie pracować i Twoje Litecoiny będą narażone na ryzyko!\n\n Chcesz otworzyć administratora aplikacji i odinstalować niepotrzebne aplikacje?</string>
+	<string name="wallet_low_storage_dialog_button_apps">Zarządzaj aplikacjami</string>
+
+	<string name="send_coins_activity_title">Wyslij Litecoin</string>
+	<string name="send_coins_fragment_receiving_address_label">Zapłać</string>
+	<string name="send_coins_fragment_receiving_address_hint">Wpisz adres lub imię</string>
+	<string name="send_coins_fragment_receiving_address_error">Nieważny adres Litecoin!</string>
+	<string name="send_coins_fragment_available_label">Do dyspozycji</string>
+	<string name="send_coins_fragment_pending">(LTC %s czekanie na potwierdzenie)</string>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 	<string name="send_coins_fragment_amount_label">Kwota do zapłacenia</string>
 	<string name="send_coins_fragment_amount_empty">Tutaj podaj kwotę</string>
 	<string name="send_coins_fragment_amount_error">Niepoprawna kwota!</string>
@@ -71,6 +99,7 @@
 	<string name="send_coins_sent_msg">Wysłano!</string>
 	<string name="send_coins_failed_msg">Niepowodzenie!</string>
 	<string name="send_coins_error_msg">Problem z wysłaniem monet!</string>
+<<<<<<< HEAD
 	<string name="send_coins_options_empty">Opróżnij portfel</string>
 	<string name="send_coins_address_context_clear_title">Podaj nowy adres</string>
 	<string name="request_coins_activity_title">Poproś o Dogecoiny</string>
@@ -88,6 +117,19 @@
 	<string name="address_book_list_sending_title">Adresy nadawcze</string>
 	<string name="address_book_empty_text">Brak wpisów w książce adresowej</string>
 	<string name="address_book_context_send_title">Wyślij Dogecoiny na adres</string>
+=======
+
+	<string name="request_coins_activity_title">Zapytaj o Litecoin</string>
+	<string name="request_coins_fragment_amount_label">Zapytana kwota (opcjonalna)</string>
+	<string name="request_coins_fragment_qr_label">Niech ten kod QR zostanie zeskanowany przez wysyłającego:</string>
+	<string name="request_coins_fragment_nfc_enabled">Albo dotknij kod z NFC zdolnym aparatem.</string>
+	<string name="request_coins_clipboard_msg">Zapytanie o Litecoin zostało wklejone do schowka</string>
+	<string name="request_coins_share_dialog_title">Opublikuj zapytanie na Litecoin…</string>
+
+	<string name="address_book_activity_title">Książka adresowa</string>
+	<string name="address_book_empty_text">Żadnych wpisów w książce adresowej</string>
+	<string name="address_book_context_send_title">Wyślij Litecoin na adres</string>
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 	<string name="address_book_context_edit_title">Zmień adres</string>
 	<string name="address_book_context_remove_title">Usuń adres</string>
 	<string name="address_book_context_show_qr_title">Pokaż kod QR</string>
@@ -179,6 +221,7 @@
 	<string name="report_issue_dialog_mail_intent_chooser">Wyślij zgłoszenie używając…</string>
 	<string name="about_title">O</string>
 	<string name="about_license_title">Licencja</string>
+<<<<<<< HEAD
 	<string name="about_credits_bitcoinj_title">Ta aplikacja korzysta z \'dogecoinj\'</string>
 	<string name="about_credits_zxing_title">Ta aplikacja korzysta z \'zxing\'</string>
 	<string name="about_credits_icon_title">Ta aplikacja korzysta z ikon od \'dogecoin.com\'</string>
@@ -191,6 +234,19 @@
 	<string name="about_credits_market_publisher_title">Inne aplikacje tego samego autora</string>
 	<string name="notification_coins_received_msg">Otrzymano %s </string>
 	<string name="notification_peers_connected_msg">%d połączonych partnerów</string>
+=======
+	<string name="about_credits_litecoinj_title">Ta aplikacja używa litecoinj %s</string>
+	<string name="about_credits_zxing_title">"Ta aplikacja używa 'zxing'"</string>
+	<string name="about_credits_icon_title">"Ta aplikacja używa icon od 'bitboy'"</string>
+	<string name="about_author_twitter_title">Autor na Twitter</string>
+	<string name="about_author_googleplus_title">Autor na Google+</string>
+	<string name="about_credits_market_app_title">strona Google Play App</string>
+	<string name="about_credits_market_publisher_title">Inne aplikacje autora</string>
+
+	<string name="notification_coins_received_msg">Otrzymane LTC %s</string>
+	<string name="notification_peers_connected_msg">%d peer połączony</string>
+
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 	<!-- generic buttons -->
 	<string name="button_ok">OK</string>
 	<string name="button_dismiss">Odrzuć</string>

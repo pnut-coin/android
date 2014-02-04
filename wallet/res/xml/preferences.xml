@@ -15,11 +15,16 @@
 			android:key="connectivity_notification"
 			android:summary="@string/preferences_connectivity_notification_summary"
 			android:title="@string/preferences_connectivity_notification_title" />
-
 		<EditTextPreference
 			android:key="trusted_peer"
 			android:summary="@string/preferences_trusted_peer_summary"
 			android:title="@string/preferences_trusted_peer_title" />
+
+        <EditTextPreference
+                android:key="trusted_peer_port"
+                android:summary="@string/preferences_trusted_peer_port_summary"
+                android:title="@string/preferences_trusted_peer_port_title"
+                android:inputType="phone"/>
 
 		<CheckBoxPreference
 			android:defaultValue="false"
@@ -73,6 +78,33 @@
 			android:title="Warning" />
 
 		<CheckBoxPreference
+<<<<<<< HEAD
+=======
+			android:defaultValue="false"
+			android:key="labs_send_coins_low_fee"
+			android:summary="Transactions with a fee less than the default fee will likely never get confirmed. You really need to know what you are doing if you are using this option!"
+			android:title="Allow low fee when sending" />
+		<CheckBoxPreference
+			android:defaultValue="false"
+			android:key="labs_transactions_details"
+			android:summary="Click on transaction, open overflow menu, select Transaction details."
+			android:title="Transaction details" />
+		<CheckBoxPreference
+			android:defaultValue="false"
+			android:key="labs_block_explorer"
+			android:summary="Open overflow menu in main screen, select Block Explorer."
+			android:title="Block explorer" />
+
+		<ListPreference
+			android:defaultValue="8"
+			android:entries="@array/preferences_precision_labels"
+			android:entryValues="@array/preferences_precision_values"
+			android:key="ltc_precision"
+			android:summary="This does not affect computations. It is used for saving view space only."
+			android:title="Precision of Litecoin values" />
+
+		<CheckBoxPreference
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 			android:defaultValue="true"
 			android:key="disclaimer"
 			android:summary="Have you really read the safety notes? Did you already back up your private keys to a safe place?"

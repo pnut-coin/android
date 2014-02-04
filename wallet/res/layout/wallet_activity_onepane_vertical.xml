@@ -13,7 +13,11 @@
 
 		<fragment
 			android:id="@+id/wallet_address_fragment"
+<<<<<<< HEAD
 			android:name="de.langerhans.wallet.ui.WalletAddressFragment"
+=======
+			android:name="de.schildbach.wallet.litecoin.ui.WalletAddressFragment"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_marginBottom="8dp"
@@ -23,7 +27,11 @@
 
 		<fragment
 			android:id="@+id/wallet_balance_fragment"
+<<<<<<< HEAD
 			android:name="de.langerhans.wallet.ui.WalletBalanceFragment"
+=======
+			android:name="de.schildbach.wallet.litecoin.ui.WalletBalanceFragment"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:layout_gravity="center" />
@@ -38,13 +46,25 @@
 
 			<fragment
 				android:id="@+id/wallet_transactions_fragment"
+<<<<<<< HEAD
 				android:name="de.langerhans.wallet.ui.WalletTransactionsFragment"
+=======
+				android:name="de.schildbach.wallet.litecoin.ui.WalletTransactionsFragment"
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 				android:layout_width="match_parent"
 				android:layout_height="match_parent"
 				android:layout_gravity="bottom|center_horizontal" />
 		</FrameLayout>
 	</LinearLayout>
 
+<<<<<<< HEAD
 	<include layout="@layout/wallet_activity_bottom_include" />
+=======
+	<fragment
+		android:id="@+id/blockchain_state_fragment"
+		android:name="de.schildbach.wallet.litecoin.ui.BlockchainStateFragment"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
 
 </LinearLayout>

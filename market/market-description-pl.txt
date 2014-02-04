@@ -21,5 +21,12 @@ This is a fork of the popular Dogecoin Wallet by Andreas Schildbach and was conv
 Find the original at
 https://play.google.com/store/apps/details?id=de.schildbach.wallet
 Licencja: GPLv3
+<<<<<<< HEAD
 Używasz na własne ryzyko!
 http://www.gnu.org/licenses/gpl-3.0.en.html
+=======
+Używanie jedynie na własne ryzyko!
+
+--
+LTC bitcoin wallet blockchain bitcoinandroid androidbitcoin Geldbörse Кошелёк mobile payment
+>>>>>>> 1c3953416a3587c6efd1bab98be1eee9ceba1d2d
